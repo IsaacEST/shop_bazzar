@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMap, faClock, faAddressBook } from '@fortawesome/free-solid-svg-icons';
+
 import { toast } from 'react-toastify';
 
 import Breadcrumb from '../Breadcrumb/Breadcrumb';
