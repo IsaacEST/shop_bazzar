@@ -1,6 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { CartContext } from '../../context/CartContext';
-import { toast } from 'react-toastify';
+
 
 import WhatsApp from '../../WhatsAppButtonGreenSmall.png';
 
