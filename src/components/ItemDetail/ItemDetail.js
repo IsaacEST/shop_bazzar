@@ -8,22 +8,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../main.css';
 
 const ItemDetail = ({ item }) => {
-	const [add, setAdd] = useState(false);
+	
 	const { addItem } = useContext(CartContext)
 
-    const onAdd = (quantity) => {
-		setAdd(true);
-		addItem(item, quantity)
-		toast.success(`Agregaste ${quantity} ${item.title} (${item.detail})`, {
-			theme: "light",
-			position: "top-center",
-			autoClose: 1500,
-			hideProgressBar: false,
-			closeOnClick: true,
-			pauseOnHover: true,
-			draggable: true,
-			progress: undefined,
-		});
+   
     };
 
     return (
