@@ -1,8 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
 import { toast } from 'react-toastify';
-import { Link } from 'react-router-dom';
-import ItemCount from './ItemCount';
+
 import WhatsApp from '../../WhatsAppButtonGreenSmall.png';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
