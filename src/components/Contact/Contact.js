@@ -65,11 +65,11 @@ const Contact = () => {
                     <div className="col-lg-4">
                         <div className="contact-form-wrap">
                             <div className="contact-form-box">
-                                <h4><i><FontAwesomeIcon icon={faClock} /></i> Horario</h4>
+                                <h4><i><FontAwesomeIcon icon="" /></i> Horario</h4>
                                 <p>LUN - SAB: 10 a 18 HRS <br /> DOM: Cerrado</p>
                             </div>
                             <div className="contact-form-box">
-                                <h4><i><FontAwesomeIcon icon={faAddressBook} /></i> Contacto</h4>
+                                <h4><i><FontAwesomeIcon icon="" /></i> Contacto</h4>
                                 <p>Telefono: +54 9 5897 9395  </p>
                             </div>
                         </div>
