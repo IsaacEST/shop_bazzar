@@ -9,10 +9,7 @@ import '../main.css';
 
 const ItemDetail = ({ item }) => {
 	
-	const { addItem } = useContext(CartContext)
 
-   
-    };
 
     return (
 		<>
